@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Agriculturist</title>
+
+  <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="lati.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f8fafc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      text-align: center;
+      color: black;
+    }
+
+    /* HERO */
+    .hero {
+      
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-color:#FFF8F3;
+    background:url("header_bg.png"),#FFF8F3;
+    background-repeat: no-repeat;
+background-position: right;
+    padding-top: 50px;
+    gap: 500px
+    ;
+    }
+
+    .hero hero-content{
+      max-width: 585px;
+    }
+.hero hero-content h2{
+  font-size: 45px;
+  font-weight:600px;
+
+}
+    .hero hero-content h1 {
+      font-size: 800px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .typing {
+      font-size: 1.4rem;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      opacity: 0.9;
+    }
+    .hero-image img{
+      max-width: 580
+      px;
+
+      
+
+    }
+
+    /* ABOUT */
+    .about p {
+      max-width: 750px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.05rem;
+    }
+    .about-container{
+      background-color: #FFF8F3;
+      
+    }
+    .about-heading{
+
+    }
+
+    /* SKILLS */
+    .skills .skill {
+      margin-bottom: 20px;
+    }
+
+    .skills span {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    .bar {
+      background: #e5e7eb;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .bar div {
+      height: 10px;
+      background-color: aquamarine;
+    }
+
+    /* SERVICES */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    /* EDUCATION */
+    .edu {
+      text-align: center;
+    }
+
+    @media(max-width:768px){
+      section {
+        padding: 60px 6%;
+      }
+
+      
+    
+  </style>
+</head>
+<body class="font-open-sans">
+
+  <!-- HERO -->
+  
+    <nav>
+      <div class="logo">
+        <h2>  La<span class="color-orange">T</span>if</h2>
+      </div>
+      
+      <ul class="menu">
+        <li><a href="https://mail.google.com/mail/?view=cm&to=latif.1902197@bau.edu.bd&su=Subject&body=Hello%20Latif">Mail me</a></li>
+        <li><a href="https://www.youtube.com/@mrdepressed3124">Youtube channel</a></li>
+        <li><a href="https://www.linkedin.com/in/abdul-latif-55a8a930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></li>
+        <button class="btn">Hire me</button >
+      </ul>
+    </nav>
+    <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm </h2>
+      <h1>>Abdul Latif 🌱</h1>
+      <div class="typing" id="typing"></div>
+   
+   <div>
+    <a href="latifCV.pdf" download
+       style="
+         background:#166534;
+         color:white;
+         padding:12px 25px;
+         border-radius:30px;
+         text-decoration:none;
+         font-weight:500;
+       ">
+      📄 Download CV (PDF)
+      </a>
+   </div>   
+    
+    </div>
+    <div class="hero-image">
+    <img src="latifphoto.png" alt="">
+  </div> 
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="about-container">
+      <div class="about-heading">
+        <h2>About Me</h2>
+        </div>
+      
+    <p>
+      I am an Agriculturist with a strong interest in sustainable farming,
+      crop management and agricultural development. I am passionate about
+      applying scientific methods to improve productivity and food security.
+    </p>
+    </div>
+    
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+  <h2>Professional Skills</h2>
+
+  <div class="skill">
+    <span>Soil Fertility & Nutrient Management</span>
+    <div class="bar"><div style="width:90%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Soil Testing & Analysis</span>
+    <div class="bar"><div style="width:85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Crop Production & Agronomy</span>
+    <div class="bar"><div style="width:80%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Fertilizer Recommendation & Management</span>
+    <div class="bar"><div style="width:85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Soil Conservation & Land Management</span>
+    <div class="bar"><div style="width:75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Field Research & Data Collection</span>
+    <div class="bar"><div style="width:70%"></div></div>
+  </div>
+</section>
+
+
+  <!-- SERVICES -->
+  <section>
+  <h2>Area of Expertise</h2>
+
+  <div class="services">
+    <div class="card">
+      <h3>Soil Fertility Management</h3>
+      <p>
+        Assessment of soil fertility status and providing appropriate nutrient
+        management strategies to improve crop productivity.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Soil Testing & Laboratory Analysis</h3>
+      <p>
+        Collection, preparation and analysis of soil samples to determine
+        physical and chemical properties.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Fertilizer Recommendation</h3>
+      <p>
+        Advising balanced fertilizer application based on soil test results
+        and crop requirements.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Sustainable Agriculture Practices</h3>
+      <p>
+        Promoting environmentally friendly and climate-smart agricultural
+        practices for long-term soil health.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Agricultural Research Support</h3>
+      <p>
+        Field experimentation, data recording and assistance in agricultural
+        and soil science research projects.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Farmer Advisory & Extension Services</h3>
+      <p>
+        Providing technical guidance to farmers on soil management and crop
+        production practices.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- EDUCATION -->
+  <section class="edu">
+  <h2>Education</h2>
+
+  <p>
+    <strong>Master of Science (MS) in Soil Science</strong><br>
+    Bangladesh Agricultural University (BAU), Mymensingh<br><br>
+
+    <strong>Bachelor of Science (Honours) in Agriculture</strong><br>
+    Faculty of Agriculture<br>
+    Bangladesh Agricultural University (BAU), Mymensingh
+  </p>
+</section>
+
+
+
+
+
+
+  <footer>
+    <section class="footer-container">
+      <div class="social">
+        <h2>Lets Connect</h2>
+        <p>please fill up the form on this section to contact with me or call between 9 A.M and 8P.M ET,Monday through Friday</p>
+        <div class="icons">
+          <a href=""><img src="icons/facebook.png" alt=""></a>
+          <a href=""><img src="icons/twitter.png" alt=""></a>
+          <a href=""><img src="icons/insta.png" alt=""></a>
+          </div>
+        </div>
+
+        <form class="form">
+          <h2>Let's Message me</h2>
+          <div>
+            <input type="text" name="" id="" placeholder="Your Name"></div>
+              <div>
+            <input type="text" name="" id="" placeholder="Your E-mail"></div>
+              <div>
+                <textarea name="" id="" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+
+          </form>
+      </section>
+  </footer>
+
+  <script>
+    const texts = [
+      "Agriculturist",
+      "Sustainable Farming Advocate",
+      "Crop Management Specialist",
+      "Agricultural Research Enthusiast"
+    ];
+
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let letter = "";
+
+    function type() {
+      if (count === texts.length) {
+        count = 0;
+      }
+      currentText = texts[count];
+      letter = currentText.slice(0, ++index);
+
+      document.getElementById("typing").textContent = letter;
+
+      if (letter.length === currentText.length) {
+        setTimeout(() => {
+          index = 0;
+          count++;
+        }, 1500);
+      }
+      setTimeout(type, 120);
+    }
+
+    type();
+  </script>
+
+</body>
+</html>
