@@ -65,11 +65,12 @@ nav .menu a{
     footer .footer-container{
         width: 71%;
         max-width: 1140px;
+        margin: 0 auto;
         display: flex;
-        gap: 800px;
+        gap: 116px;
     }
      .footer-container .social{
-        max-width: 5000px;
+        max-width: 500px;
      }
      .footer-container h2{
         font-size: 35px;
