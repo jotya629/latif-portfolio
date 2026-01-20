@@ -33,18 +33,19 @@
     /* HERO */
     .hero {
       
-      min-height: 100vh;
+      min-height: 2px;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       background-color:#FFF8F3;
-    background:url("header_bg.png"),#FFF8F3;
+    background:url("header_bg.png");
     background-repeat: no-repeat;
-background-position: right;
-    padding-top: 50px;
+    background-position: right;
+    padding-top: 5px;
     gap: 500px
     ;
+    gap
     }
     .hero nav{
       width: 71%;
@@ -66,7 +67,7 @@ background-position: right;
     .hero hero-content h1 {
       font-size: 800px;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .typing {
@@ -138,8 +139,8 @@ background-color: #FFF8F3;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 25px;
-      display: flex;
-justify-content: center;
+      
+
     }
 
     .card {
@@ -188,7 +189,8 @@ justify-content: center;
 
 header{
     background-color:#FFF8F3;
-    background:url("../images/header_bg.png"),#FFF8F3;
+   /* background:url("../images/header_bg.png"),#FFF8F3;*/
+   background-image: header_bg.png;
     background-position: bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -219,7 +221,7 @@ nav .menu a{
 
     footer {
   width: 100%;
-  padding: 130px 0;
+  padding: 30px 0;
   background-color: #FFF8F3;
   color: #166534;
 }
@@ -229,7 +231,7 @@ nav .menu a{
         max-width: 1140px;
         margin: 0 auto;
         display: flex;
-        gap: 116px;
+        gap: 16px;
     }
      .footer-container .social{
         max-width: 500px;
@@ -250,10 +252,88 @@ nav .menu a{
         margin-right:24px ;
       }
 
-    @media(max-width:768px){
-      section {
-        padding: 60px 6%;
-      }
+    /* Mobile Responsive – up to 576px */
+@media screen and (max-width: 576px) {
+
+  /* NAV */
+  nav {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  nav .menu {
+    flex-direction: column;
+    gap: 3px;
+    padding: 0;
+  }
+
+  .logo h2 {
+    font-size: 32px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 3px;
+    padding: 2px ;
+    background-position:bottom center;
+  }
+
+  .hero-content h2 {
+    font-size: 24px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .typing {
+    font-size: 16px;
+  }
+
+  .hero-image img {
+    width: 100%;
+   /* max-width: 280px;*/
+  }
+
+  /* ABOUT */
+  .about p {
+    font-size: 15px;
+    padding: 0 1px;
+  }
+
+  /* SKILLS */
+  section {
+    padding: 20px 10px;
+  }
+
+  /* SERVICES */
+  .services {
+    grid-template-columns: 1fr;
+    gap:25px;
+  }
+
+  /* FOOTER */
+  footer .footer-container {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .footer-container h2 {
+    font-size: 28px;
+  }
+
+  .footer-container p {
+    font-size: 14px;
+  }
+
+  .form input,
+  .form textarea {
+    width: 100%;
+  }
+}
 
       
     
@@ -490,4 +570,4 @@ nav .menu a{
   </script>
 
 </body>
-</html>
+</html> 
